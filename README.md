@@ -17,3 +17,18 @@ For a new user, the app automatically creates the required schemas and tables ne
 
 The user must have **a MySQL Server successfully started** in the background, in order to use the **Face Analysis (for face recognition only)** or **Attendance Marking** functionalities.
 
+### Run the Home_UI.py file to start the application.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+The main libraries used in this project are:
+ * OpenCV
+    * Webcam streaming
+    * Face and Eye detection using HaarCascades (shipped with OpenCV)
+ * DeepFace
+    * Emotion Detection
+    * Face Analysis (includes Gender, Age, Emotion analysis and Face Recognition)
+    * Face Recognition
+ * mysql-connector for MySQL Connections 
+ * PySide2 for the Application UI 
+
